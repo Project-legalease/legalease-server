@@ -59,32 +59,32 @@ List of available endpoints:
 
 ## Project Structure
 
-├── src
-│ ├── config # Server configurations
-│ ├── enums
-│ ├── interfaces
-│ ├── middlewares
-│ ├── models
-│ ├── routes # API endpoints
-│ ├── services # Application Logic
-│ ├── utils # Helper functions
-│ ├── app.ts
-│ ├── index.ts
+├── src  
+│ ├── config # Server configurations  
+│ ├── enums  
+│ ├── interfaces  
+│ ├── middlewares  
+│ ├── models  
+│ ├── routes # API endpoints  
+│ ├── services # Application Logic  
+│ ├── utils # Helper functions  
+│ ├── app.ts  
+│ ├── index.ts  
 │ └── ...  
- ├── test
-├── .env
-├── .env.sample
-├── .eslintrc
-├── .gitignore
-├── jest.config.js
-├── LICENSE
-├── package-lock.json
-├── package.json
-├── README.md
-├── tsconfig.json
-├── package.json
-├── package.json
-├── package.json
+ ├── test  
+├── .env  
+├── .env.sample  
+├── .eslintrc  
+├── .gitignore  
+├── jest.config.js  
+├── LICENSE  
+├── package-lock.json  
+├── package.json  
+├── README.md  
+├── tsconfig.json  
+├── package.json  
+├── package.json  
+├── package.json  
 └── ...
 
 ## Documentation
