@@ -59,15 +59,16 @@ List of available endpoints:
 
 ## Project Structure
 
+```sh
 ├── src  
-│ ├── config # Server configurations  
+│ ├── config      # Server configurations  
 │ ├── enums  
 │ ├── interfaces  
 │ ├── middlewares  
 │ ├── models  
-│ ├── routes # API endpoints  
-│ ├── services # Application Logic  
-│ ├── utils # Helper functions  
+│ ├── routes      # API endpoints  
+│ ├── services    # Application Logic  
+│ ├── utils       # Helper functions  
 │ ├── app.ts  
 │ ├── index.ts  
 │ └── ...  
@@ -86,6 +87,7 @@ List of available endpoints:
 ├── package.json  
 ├── package.json  
 └── ...
+```
 
 ## Documentation
 
