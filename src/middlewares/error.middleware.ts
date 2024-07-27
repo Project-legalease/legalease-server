@@ -1,8 +1,8 @@
 import { Request, Response } from "express";
 
 import { ApiError, NotFound } from "../models/error.model";
-import DefaultResponse from "../interfaces/default_response.interface";
 import logger from "../utils/logger";
+import DefaultResponse from "../interfaces/default_response.interface";
 
 export function routeNotSupported(
   req: Request,

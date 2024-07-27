@@ -73,6 +73,7 @@ export default class Auth {
       throw new InternalError("Error creating user");
     }
   }
+  
   static async login(loginData: ILogin, res: Response) {
     try {
       const user = await AuthUserModel.findOne({

@@ -33,3 +33,20 @@ export const validateLogin = (credentials: unknown) => {
 
   return loginSchema.validate(credentials);
 };
+
+export const validateEmail = (credentials: unknown) => {
+  const loginSchema = Joi.object({
+    email: Joi.string().required(),
+  });
+
+  return loginSchema.validate(credentials);
+};
+
+export const validateNewPassword = (credentials: unknown) => {
+  const loginSchema = Joi.object({
+    otp: Joi.number().required(),
+    password: Joi.string().min(6).required(),
+  });
+
+  return loginSchema.validate(credentials);
+};
